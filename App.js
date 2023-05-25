@@ -100,7 +100,7 @@ async function uploadImage() {
     }
   });
 
-xhr.open("POST", "http://10.68.36.110/pam3etim/imagem/upload.php");
+xhr.open("POST", "http://10.68.36.110/pam3etim/imagem/upload.php"); //colocar o IP do seu pc atual (no arquivo upload tambem)
 
 xhr.send(data);
 }
