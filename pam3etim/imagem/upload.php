@@ -1,12 +1,11 @@
 <?php
- header('Access-Control-Allow-Origin: *');
- header('Content-type: application/json');
-
+header('Access-Control-Allow-Origin: *');
+header('Content-type: application/json');
 header('Access-Control-Allow-Credentials: true');
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With'); 
 header('Content-Type: application/json; charset=utf-8');  
-
+ //essa pasta 'pam3etim' deve estar no htdocs para o codigo funcionar
   $dbhost = "localhost";
   $dbuser = "root";
   $dbpass = "";
